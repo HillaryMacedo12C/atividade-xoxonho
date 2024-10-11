@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 } 
+
+body {
+font-family: Inknut Antiqua, sans-serif;
+}
+
 h1 {
     display: flex;
     justify-content: center;
@@ -35,20 +40,25 @@ header {
 
 .assunto1 {
     display: flex;
-    justify-content: ;
+    justify-content: center;
     margin: 4rem;
-    align-items: center;
+   
 }
 
-.assunto1 img {
-    width: 9rem;
+img {
+    width: 10rem;
     height: 12rem;
-    display: flex;
+    margin: 0 auto; 
+    display: block;
+    padding-bottom: 1rem;
 }
 
 .assunto1 p {
     max-width: 20rem;
     line-height: 1.2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .assunto2 {
@@ -57,7 +67,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 25rem;
-    margin-top: 2rem; /* Espaçamento acima */
+    margin-top: 2rem;
     padding: 1rem;
 }
 
@@ -68,31 +78,9 @@ header {
 }
 
 .assunto2 p {
-    max-width: 15rem;
+    max-width: 25rem;
     text-align: center;
     color: #f1f1f1;
-}
-
-.assunto3 {
-    background-color: #ffffff;
-    height: 25rem;
-    margin-top: 0; /* Remover a margem superior */
-    padding: 1rem;
-    display: flex; /* Adicionando display flex para alinhar conteúdo dentro */
-    flex-direction: column; /* Alinha os elementos verticalmente */
-    align-items: center; /* Centraliza os elementos horizontalmente */
-}
-
-.assunto3 img {
-    width: 20rem;
-    height: 12rem;
-    border-radius: 0.5rem;
-}
-
-.assunto3 p {
-    max-width: 15rem;
-    text-align: center;
-    color: #000000;
 }
 
 
