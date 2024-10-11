@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #f1f1f1;
+}
+
+header {
+    background-color: black;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.assunto1 {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem;
+    align-items: center;
+}
+
+.assunto1 img {
+    width: 10rem;
+}
+
+.primeira p {
+    max-width: 20rem;
+    line-height: 1.5;
+}
+
+/* Estilos para a segunda div */
+.segunda {
+    background-color: #ffe680;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.segunda img {
+    width: 8rem;
+    height: 8rem;
+}
+
+.segunda p {
+    max-width: 15rem;
+    text-align: center;
+}
+
+/* Estilos para a terceira div */
+.terceira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.terceira img {
+    width: 10rem;
+    height: 10rem;
+}
